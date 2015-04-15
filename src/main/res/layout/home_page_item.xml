@@ -1,0 +1,155 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+              android:layout_width="match_parent"
+              android:layout_height="wrap_content"
+              android:orientation="horizontal"
+              android:paddingTop="0dp"
+              android:paddingBottom="1dp"
+              android:focusable="false"
+              android:focusableInTouchMode="false"
+              android:longClickable="false"
+              android:touchscreenBlocksFocus="false"
+              android:id="@+id/item_home_page"
+              android:divider="#ffc5c5c5"
+              android:dividerPadding="1dp">
+
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="match_parent"
+        android:orientation="vertical"
+        android:touchscreenBlocksFocus="false"
+        >
+
+        <ImageView
+            android:id="@+id/avatar"
+            android:layout_width="76dp"
+            android:layout_height="76dp"
+            android:src="@drawable/avatar"
+            android:layout_marginTop="2dp"/>
+
+        <!--<ImageView-->
+        <!--android:layout_width="wrap_content"-->
+        <!--android:layout_height="wrap_content"-->
+        <!--android:src="@drawable/support"/>-->
+
+        <!--<ImageView-->
+        <!--android:layout_width="wrap_content"-->
+        <!--android:layout_height="wrap_content"-->
+        <!--android:src="@drawable/share"/>-->
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical"
+        android:paddingLeft="10dp"
+        android:paddingRight="8dp"
+        android:paddingBottom="2dp"
+        android:touchscreenBlocksFocus="false">
+
+        <TextView
+            android:id="@+id/job_name"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="客户服务经理"
+            android:textColor="#3398da"
+            android:textSize="20dp"
+            android:textStyle="bold"
+            android:paddingTop="4dp"
+            android:paddingBottom="4dp"/>
+
+        <TextView
+            android:id="@+id/company_name"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="深圳汉莎技术有限公司"
+            android:paddingBottom="1dp"
+            android:textColor="#666"
+            android:textSize="14dp"/>
+
+        <TextView
+            android:id="@+id/company_info"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="航空航天|100-500人"
+            android:paddingBottom="2dp"
+            android:textColor="#999"
+            android:textSize="14dp"/>
+
+
+        <TextView
+            android:id="@+id/require"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="深圳 | 8-10K/M | 本科 | 5年以上"
+            android:paddingBottom="2dp"
+            android:singleLine="false"
+            android:textSize="14dp"/>
+
+        <TextView
+            android:id="@+id/company_position"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="地点：深圳宝安区深圳机场航站4路深圳汉莎技术有限公司基地"
+            android:paddingBottom="2dp"
+            android:textColor="#999"
+            android:textSize="14dp"/>
+
+        <LinearLayout
+            android:id="@+id/layout_welfare"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal">
+
+            <LinearLayout
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:background="#ffc5c5c5"
+                android:padding="1dp"
+                android:layout_marginBottom="2dp"
+                android:layout_marginRight="4dp">
+
+                <TextView
+                    android:id="@+id/textsize"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="年终双薪"
+                    android:nestedScrollingEnabled="false"
+                    android:background="@android:color/white"
+                    android:paddingRight="4dp"
+                    android:paddingLeft="4dp"
+                    android:textSize="14dp"/>
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:background="#ffc5c5c5"
+                android:padding="1dp"
+                android:layout_marginBottom="2dp">
+
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="折集锦片"
+                    android:nestedScrollingEnabled="false"
+                    android:background="@android:color/white"
+                    android:paddingRight="4dp"
+                    android:paddingLeft="4dp"
+                    android:textSize="14dp"/>
+            </LinearLayout>
+
+        </LinearLayout>
+
+
+        <TextView
+            android:id="@+id/slogan"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="精益求精 打造一流服务"
+            android:textColor="#f39c12"
+            android:textSize="14dp"/>
+    </LinearLayout>
+
+</LinearLayout>

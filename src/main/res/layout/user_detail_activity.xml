@@ -1,0 +1,40 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+              xmlns:tools="http://schemas.android.com/tools"
+              android:layout_width="match_parent"
+              android:layout_height="match_parent"
+              android:orientation="vertical"
+              tools:context="com.liren91.liren91.home_page.UserDetail">
+
+    <ExpandableListView
+        android:background="@color/liren_blue_2"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/detail_expandable"
+        android:paddingStart="4dp"
+        android:paddingEnd="4dp"
+        android:footerDividersEnabled="false"/>
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="职位描述"
+        android:textColor="@color/liren_red1"
+        android:textSize="24dp"
+        android:padding="4dp"/>
+
+    <ScrollView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:paddingRight="4dp"
+        android:paddingLeft="6dp"
+        android:paddingBottom="4dp"
+        android:paddingTop="2dp">
+
+        <TextView
+            android:id="@+id/detail_job_info"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textSize="14dp"
+            android:paddingLeft="2dp"/>
+    </ScrollView>
+</LinearLayout>
